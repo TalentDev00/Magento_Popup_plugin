@@ -1,0 +1,6 @@
+/**
+ * @author Jesus
+ */
+.modal-popup._show .modal-inner-wrap {
+    width: 600px;
+}

@@ -1,0 +1,19 @@
+<?php
+/**
+ *@author Jesus
+ */
+?>
+<div id="popup-modal" style="display:none;">
+    <?php echo $block->getMessage() ?>
+</div>
+
+<script type="text/x-magento-init"> 
+{ 
+   "*": { 
+    "modalPopup": {
+        "title": "<?php echo $block->escapeHtml($block->getTitle()) ?>" ,
+        "image": "<?php echo $block->escapeHtml($block->getImage()) ?>"
+        } 
+   } 
+} 
+</script>
